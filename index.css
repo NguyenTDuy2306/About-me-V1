@@ -17,14 +17,18 @@
   animation-duration: 2s;
 }
 .clock {
+  border: solid;
+  border-radius: 0.5em;
+  border-color: #ddd;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  color: #17d4fe;
+  color: #ffffff;
   font-size: 60px;
-  font-family: Orbitron;
   letter-spacing: 7px;
+  animation: mySlideClock;
+  animation-duration: 2s;
 }
 .title {
   margin-bottom: 20px;
@@ -394,6 +398,14 @@ input[type="checkbox"] {
   }
   to {
     margin-top: 100px;
+  }
+}
+@keyframes mySlideClock {
+  from {
+    margin-top: 200px;
+  }
+  to {
+    margin-top: 0px;
   }
 }
 @keyframes hover {
