@@ -38,5 +38,11 @@ function showTime() {
 
   setTimeout(showTime, 1000);
 }
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
 
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
 showTime();
