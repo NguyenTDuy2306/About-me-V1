@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reaponsive CSS Cards</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+  <link rel="stylesheet" href="about-me.css" />
+</head>
+
+<body>
+  <input type="checkbox" id="active" />
+  <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+  <div class="wrapper-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about-me.html">About Me</a></li>
+      <li><a href="experience.html">Experience</a></li>    
+    </ul>
+  </div>
+<div class="blog-slider">
+  <div class="blog-slider__wrp swiper-wrapper">
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <!-- <img src="https://images.unsplash.com/photo-1569124589354-615739ae007b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""> -->
+        <img src="avatar1.png">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">INFORMATION</span>
+        <div class="blog-slider__title">NGUYEN TUONG DUY</div>
+        <div class="blog-slider__text">
+        <li><b>Age:</b> 22</li>
+        <li><b>Birthday:</b> 23/06/2000</li> 
+        <li><b>Phone:</b> 0344911221</li> 
+        <li><b>Email:</b> ntduy2306@gmail.com</li>
+        <li><b>Address:</b> District 4, Ho Chi Minh City</li>   
+        </div>
+        <!-- <a href="#" class="blog-slider__button">READ MORE</a> -->
+      </div>
+    </div>
+    
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <!-- <img src="https://images.unsplash.com/photo-1595868228899-abc8fabb3447?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""> -->
+        <img src="developer.png">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">ABOUT ME</span>
+        <div class="blog-slider__title">DEVELOPER</div>
+        <div class="blog-slider__text">
+          I'm a final year student at Ton Duc Thang University and I'm doing an internship at axon active in web programming. 
+          loves to discover new things about technology likes to watch movies and play games in my free time. 
+          In addition, he also plays sports such as badminton, volleyball and is a magician  </div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+    
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <!-- <img src="https://images.unsplash.com/photo-1524638431109-93d95c968f03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt=""> -->
+        <img src="magic.jpg">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">HOBBY</span>
+        <div class="blog-slider__title">PLAY MAGIC</div>
+        <div class="blog-slider__text">
+          Playing magic is my hobby when I have free time. 
+          I often go offline with other schools' clubs. 
+          I have been playing magic for more than 2 years and I will continue to follow my passion
+        </div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+    
+  </div>
+  <div class="blog-slider__pagination"></div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
