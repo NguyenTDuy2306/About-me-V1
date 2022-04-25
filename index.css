@@ -17,6 +17,8 @@
   animation-duration: 2s;
 }
 .clock {
+  width: 500px;
+  text-align: center;
   border: solid;
   border-radius: 0.5em;
   border-color: #ddd;
